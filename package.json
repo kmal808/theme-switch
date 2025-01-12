@@ -1,8 +1,8 @@
 {
-  "name": "theme-switch",
+  "name": "@kmal808/theme-switch",
   "version": "0.0.1",
-  "description": "A simple theme engine for your React applications ",
-  "main": "index.js",
+  "description": "A simple drop in theme engine for your React applications",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -12,9 +12,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "vitest",
-    "clean": "rm -rf dist",
-    "prebuild": "pnpm run clean"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "kmal808",

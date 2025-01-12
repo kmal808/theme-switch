@@ -1,4 +1,4 @@
-# @kmal808/theme-engine
+# @kmal808/theme-switch
 
 A drop-in, customizable theme engine for React applications. Start with the preconfigured themes or create your own.
 
