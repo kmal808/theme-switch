@@ -1,0 +1,44 @@
+{
+  "name": "theme-switch",
+  "version": "0.0.1",
+  "description": "A simple theme engine for your React applications ",
+  "main": "index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "clean": "rm -rf dist",
+    "prebuild": "pnpm run clean"
+  },
+  "keywords": [],
+  "author": "kmal808",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmal808/theme-switch"
+  },
+  "homepage": "https://github.com/kmal808/theme-switch",
+  "bugs": {
+    "url": "https://github.com/kmal808/theme-switch/issues"
+  },
+  "peerDependencies": {
+    "lucide-react": "^0.470.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4",
+    "@types/node": "^20.17.12",
+    "@types/react": "^18.3.18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

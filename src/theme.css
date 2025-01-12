@@ -1,0 +1,60 @@
+:root {
+  --theme-bg: #f9fafb;
+  --theme-surface: #ffffff;
+  --theme-text: #111827;
+  --theme-text-secondary: #4b5563;
+  --theme-border: #e5e7eb;
+  --theme-primary: #475569;
+  --theme-primary-hover: #334155;
+  --theme-error: #ef4444;
+  --theme-success: #22c55e;
+  --theme-warning: #eab308;
+}
+
+/* Theme-aware utility classes */
+.bg-theme {
+  background-color: var(--theme-bg);
+}
+
+.bg-surface {
+  background-color: var(--theme-surface);
+}
+
+.text-theme {
+  color: var(--theme-text);
+}
+
+.text-theme-secondary {
+  color: var(--theme-text-secondary);
+}
+
+.border-theme {
+  border-color: var(--theme-border);
+}
+
+.bg-primary {
+  background-color: var(--theme-primary);
+}
+
+.bg-primary-hover {
+  background-color: var(--theme-primary-hover);
+}
+
+.text-error {
+  color: var(--theme-error);
+}
+
+.text-success {
+  color: var(--theme-success);
+}
+
+.text-warning {
+  color: var(--theme-warning);
+}
+
+/* Transitions */
+.theme-transition {
+  transition-property: background-color, border-color, color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
