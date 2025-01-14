@@ -1,4 +1,4 @@
-# @kmal808/theme-switch
+# @kvrt/theme-switch
 
 A drop-in, customizable theme engine for React applications. Start with the preconfigured themes or create your own.
 
@@ -16,7 +16,7 @@ A drop-in, customizable theme engine for React applications. Start with the prec
 ## Installation
 
 ```bash
-npm install @kmal808/theme-switch
+npm install @kvrt/theme-switch
 ```
 
 ## Quick Start
@@ -24,7 +24,7 @@ npm install @kmal808/theme-switch
 1. Wrap your app with the ThemeProvider:
 
 ```tsx
-import { ThemeProvider } from '@kmal808/theme-switch'
+import { ThemeProvider } from '@kvrt/theme-switch'
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
 2. Add the theme switcher component:
 
 ```tsx
-import { ThemeSwitcher } from '@kmal808/theme-switch'
+import { ThemeSwitcher } from '@kvrt/theme-switch'
 
 function Header() {
   return (
@@ -109,7 +109,7 @@ The following CSS variables are available:
 ## Using the Hook
 
 ```tsx
-import { useTheme } from '@kmal808/theme-switch'
+import { useTheme } from '@kvrt/theme-switch'
 
 function MyComponent() {
   const { theme, setTheme, mode, setMode } = useTheme()
@@ -125,7 +125,7 @@ function MyComponent() {
 ## Creating Custom Themes
 
 ```tsx
-import { ThemeConfig } from '@kmal808/theme-switch'
+import { ThemeConfig } from '@kvrt/theme-switch'
 
 const myTheme: ThemeConfig = {
   name: 'My Theme',
@@ -151,4 +151,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT © [kmal808]
+MIT © [kvrt](https://github.com/kmal808)
