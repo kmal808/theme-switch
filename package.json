@@ -1,5 +1,5 @@
 {
-  "name": "@kmal808/theme-switch",
+  "name": "@kvrt/theme-switch",
   "version": "0.0.2",
   "description": "A simple drop in theme engine for your React applications",
   "main": "dist/index.js",
